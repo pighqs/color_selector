@@ -1,0 +1,200 @@
+#palette {
+    width :900px;
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+    justify-content: space-between;
+
+}
+.colorDisplay {
+    border : 1px solid rgba(0, 0, 0, 0.20);
+    margin:auto;
+    border-radius:75px;
+    width:150px;
+    height:150px;
+    
+}
+
+.color {
+        width:150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:10px;
+}
+
+button {
+    padding:5px 10px;
+    border:none;
+    background-color: #e8e8e8;
+    display: block;
+   margin : 10px auto;
+}
+
+p {
+    margin:0 10px;
+    text-align: center;
+}
+
+.fa {
+    color:ghostwhite;
+    text-shadow: 1px 1px black;
+    position: relative;
+    top: 44%;
+}
+h3, p {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.center {
+    margin:10px 0;
+}
+
+#choix_couleur {
+    margin:30px auto;
+    text-align: center;
+}
+
+.palette {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#display {
+    margin:30px auto;
+    transition : background 200ms;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.col_view, #display {
+    width:150px;
+    height: 150px;
+    border-radius:75px;
+    display:block;
+}
+
+
+.picker {
+    margin: auto;
+    width:600px;
+}
+
+.picker input {
+    display:block;
+    width:100%;
+    margin:5px 0;
+}
+
+.val input {
+    outline: none;
+    background: transparent;
+    border: 1px solid #9e9e9e;
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=range]#red::-webkit-slider-runnable-track {
+    background: red;
+    background: -moz-linear-gradient(45deg, black 0%, red 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, black), red));
+    background: -webkit-linear-gradient(45deg, black 0%, red 100%);
+    background: -o-linear-gradient(45deg, black 0%, red 100%);
+    background: -ms-linear-gradient(45deg, black 0%, red 100%);
+    background: linear-gradient(45deg, black 0%, red 100%);
+}
+input[type=range]#green::-webkit-slider-runnable-track {
+    background: green;
+    background: -moz-linear-gradient(45deg, black 0%, green 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, green), green));
+    background: -webkit-linear-gradient(45deg, black 0%, green 100%);
+    background: -o-linear-gradient(45deg, black 0%, green 100%);
+    background: -ms-linear-gradient(45deg, black 0%, green 100%);
+    background: linear-gradient(45deg, black 0%, green 100%);
+}
+input[type=range]#blue::-webkit-slider-runnable-track {
+    background: blue;
+    background: -moz-linear-gradient(45deg, black 0%, blue 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, black), blue));
+    background: -webkit-linear-gradient(45deg, black 0%, blue 100%);
+    background: -o-linear-gradient(45deg, black 0%, blue 100%);
+    background: -ms-linear-gradient(45deg, black 0%, blue 100%);
+    background: linear-gradient(45deg, black 0%, blue 100%);
+}
+input[type=range]#darkness::-webkit-slider-runnable-track {
+    background: black;
+    background: -moz-linear-gradient(45deg, black 0%, ghostwhite 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, black), ghostwhite));
+    background: -webkit-linear-gradient(45deg, black 0%, ghostwhite 100%);
+    background: -o-linear-gradient(45deg, black 0%, ghostwhite 100%);
+    background: -ms-linear-gradient(45deg, black 0%, ghostwhite 100%);
+    background: linear-gradient(45deg, black 0%, ghostwhite 100%);
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-top: -7px;
+}
+
+input[type=range]#red::-webkit-slider-thumb {
+    background: red;
+}
+input[type=range]#green::-webkit-slider-thumb {
+    background: green;
+}
+input[type=range]#blue::-webkit-slider-thumb {
+    background: blue;
+}
+input[type=range]#darkness::-webkit-slider-thumb {
+    background: grey;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+
+#redText, #greenText, #blueText, #darknessText {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    border: none;
+    overflow: auto;
+    outline: none;
+    background: transparent;
+    text-align: center;
+    height: 16px;
+}
+
+.rgbJaugeText, .darknessJaugeText {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#rgbDisplayTest {
+    width:150px;
+    height: 150px;
+    border-radius:75px;
+    display:block;
+    border:1px solid rgba(0, 0, 0, 0.20);
+    margin:30px auto;
+}

@@ -1,0 +1,64 @@
+#wrap-index {
+    width: 100%;
+    max-width: 1280px;
+margin: 0 auto;
+}
+
+.separator40px {
+    height : 40px;
+}
+.separator20px {
+    height : 15px;
+}
+.separator10px {
+    height : 5px;
+}
+
+.separator-line {
+    height : 1px;
+    background: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+header {
+    background: lightgrey;
+    padding: 10px;
+}
+
+form.add {
+    border: 1px solid black;
+    padding: 30px;
+    max-width: 285px;
+
+}
+.wrapper-edit {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.content-edit {
+    padding: 30px;
+}
+/*div > form > div{*/
+    /*border: 1px solid red;*/
+/*}*/
+
+.title-edit {
+    display: flex;
+    align-items: center;
+
+}
+
+a.edit {
+    margin-right: 8px;
+}
+
+section#create {
+    padding: 30px;
+}
+section#display {
+    padding: 30px;
+}

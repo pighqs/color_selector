@@ -1,0 +1,28 @@
+.content-display-palette {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.insert {
+    padding: 20px;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.label-categorie {
+    margin-right: 10px;
+}
+
+.display-palette {
+   width: 285px;
+    padding: 30px;
+    border: 1px solid black;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    line-height: 150%;
+}
+
+.add {
+    margin-bottom: 20px;
+}
